@@ -61,7 +61,7 @@ if (isset($_POST['tambah'])) {
                     mysqli_query($koneksi, $sql);
 
                     // Redirect agar form tidak double submit
-                    header("Location: tambah_buku.php?success=1");
+                    header("Location: tambah_buku_petugas.php?success=1");
                     exit;
                 } else {
                     $msg = "Gagal menyimpan file cover.";
